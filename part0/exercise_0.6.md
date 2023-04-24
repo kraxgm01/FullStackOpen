@@ -10,4 +10,4 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser gets a {message:recieved} from server and updates the UI 
-    ```
+```
