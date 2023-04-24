@@ -1,3 +1,5 @@
+```mermaid
+
 sequenceDiagram
     participant browser
     participant server
@@ -7,4 +9,5 @@ sequenceDiagram
     server-->>browser: (Status Code:201) JSON Document
     deactivate server
 
-    Note right of browser: The browser gets a {message:recieved} from server and updates the UI
+    Note right of browser: The browser gets a {message:recieved} from server and updates the UI 
+    ```
